@@ -31,8 +31,6 @@ learned RFSimage | reconstruction | ground truth
 
 ![recons_of_all_frames_as_video_additional_a](/additional_results/recons_of_all_frames_as_video_additional_a.gif)
 ![recons_of_all_frames_as_video_additional_b](/additional_results/recons_of_all_frames_as_video_additional_b.gif)
-
-The online version of this repository is avilable at https://github.com/brain2pix/brain2pix/
     
 <b>Codes: </b>
 
