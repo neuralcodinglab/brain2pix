@@ -1,11 +1,18 @@
 # Brain2Pix: Supplementary materials
 
-### Folders
-data_preprocessing: this folder contails all the code written to make RFSimages.
-code: Codes containing the model and training loop for the experiments.
-addional results: reconstruction videos in GIF format and figures in PFD format. 
+## Introduction
+Welcome to the repository that contains supplementary materials and the source code for the paper "Brain2Pix: Fully convolutional naturalistic video reconstruction from brain activity".
 
-Repository for the supplementary materials of the paper "Brain2Pix: Fully convolutional naturalistic video reconstruction  from brain activity".
+The brain2pix model consists of 2 parts. 1) Making RFSimages, and 2) training the GAN-like model. For reproducing the experiment, first check out the [data_preprocessing](data_preprocessing/README.md) files for making the RFSimages and then the [experiment](experiment/README.md) files for training the model.
+
+## Folders
+data_preprocessing: this folder entails all the steps of transforming raw brain signals into RFSimages.
+
+experiment: codes containing the model and training loop for the experiments.
+
+visualizations: reconstruction videos in GIF format and figures in PFD format.
+
+## Results
 
 <b>Main results -- FixedRF (test set):</b>
 
