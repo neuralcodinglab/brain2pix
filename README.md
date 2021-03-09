@@ -18,32 +18,32 @@ visualizations: reconstruction videos in GIF format and figures in PFD format.
 
 fixed RFSimage | reconstruction | ground truth
 
-![fixedRF_recons_of_all_frames_as_video_a](/additional_results/recons_fixed_of_all_frames_as_video_a.gif)
+![fixedRF_recons_of_all_frames_as_video_a](/visualizations/recons_fixed_of_all_frames_as_video_a.gif)
 
 
-![fixedRF_recons_of_all_frames_as_video_b](/additional_results/recons_fixed_of_all_frames_as_video_b.gif)
+![fixedRF_recons_of_all_frames_as_video_b](/visualizations/recons_fixed_of_all_frames_as_video_b.gif)
 
 
-![fixedRF_recons_of_all_frames_as_video_c](/additional_results/recons_fixed_of_all_frames_as_video_c.gif)
+![fixedRF_recons_of_all_frames_as_video_c](/visualizations/recons_fixed_of_all_frames_as_video_c.gif)
 
 
 <b>Main results -- LearnedRF (test set):</b>
 
 learned RFSimage | reconstruction | ground truth
 
-![learnedRF_recons_of_all_frames_as_video_a](/additional_results/recons_of_all_frames_as_video_a.gif)
+![learnedRF_recons_of_all_frames_as_video_a](/visualizations/recons_of_all_frames_as_video_a.gif)
 
 
-![learned_RF_recons_of_all_frames_as_video_b](/additional_results/recons_of_all_frames_as_video_b.gif)
+![learned_RF_recons_of_all_frames_as_video_b](/visualizations/recons_of_all_frames_as_video_b.gif)
 
 
-![learned_RF_recons_of_all_frames_as_video_c](/additional_results/recons_of_all_frames_as_video_c.gif)
+![learned_RF_recons_of_all_frames_as_video_c](/visualizations/recons_of_all_frames_as_video_c.gif)
 
 
 <b>Additional results (test set):</b>
 
-![recons_of_all_frames_as_video_additional_a](/additional_results/recons_of_all_frames_as_video_additional_a.gif)
-![recons_of_all_frames_as_video_additional_b](/additional_results/recons_of_all_frames_as_video_additional_b.gif)
+![recons_of_all_frames_as_video_additional_a](/visualizations/recons_of_all_frames_as_video_additional_a.gif)
+![recons_of_all_frames_as_video_additional_b](/visualizations/recons_of_all_frames_as_video_additional_b.gif)
     
 <b>Codes: </b>
 
