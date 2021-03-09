@@ -1,5 +1,11 @@
 # Brain2Pix: Supplementary materials
-Anonymous repository for the supplementary materials of the paper "Brain2Pix: Fully convolutional naturalistic video reconstruction  from brain activity".
+
+### Folders
+data_preprocessing: this folder contails all the code written to make RFSimages.
+code: Codes containing the model and training loop for the experiments.
+addional results: reconstruction videos in GIF format and figures in PFD format. 
+
+Repository for the supplementary materials of the paper "Brain2Pix: Fully convolutional naturalistic video reconstruction  from brain activity".
 
 <b>Main results -- FixedRF (test set):</b>
 
