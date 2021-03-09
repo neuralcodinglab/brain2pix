@@ -1,0 +1,11 @@
+.idea/
+notebook/.ipynb_checkpoints/
+*.hdf5
+*.pyc
+*.pkl
+Models/Checkpoints/
+Models/Results_dump/
+*.h5
+*.png
+*.JPEG
+
