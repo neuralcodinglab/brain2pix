@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import cv2
 import os
 from tqdm import tqdm
-
+import subprocess
 
 # ### 1. Downsample targets temporally to match TR & and desired img dimension
 
@@ -28,12 +28,12 @@ os.makedirs(f'{downsamp_dir}/training_npy', exist_ok=True)
 
 ###### T E S T I N G
 for i in range(1, len(list_testvids)+1):
-    get_ipython().system('ffmpeg -i /mnt/sdb/Ubuntu/whoRF/doctor_who_frames/raw_frames/test/run_{i}.webm -an -vf "scale=96:96,fps=1.42857142857" -y /mnt/sdb/Ubuntu/whoRF/doctor_who_frames/in_between_processing/testing_webm/run_{i}_07.webm')
+    subprocess.call(f'ffmpeg -i /mnt/sdb/Ubuntu/whoRF/doctor_who_frames/raw_frames/test/run_{i}.webm -an -vf "scale=96:96,fps=1.42857142857" -y /mnt/sdb/Ubuntu/whoRF/doctor_who_frames/in_between_processing/testing_webm/run_{i}_07.webm', shell=True)
 
-###### T R A I N I N G
-for i in range(1, len(list_trainvids)+1):
-    i_z = str(i).zfill(3)
-    get_ipython().system('ffmpeg -i /mnt/sdb/Ubuntu/whoRF/doctor_who_frames/raw_frames/train/run_{i_z}.webm -an -vf "scale=96:96,fps=1.42857142857" -y /mnt/sdb/Ubuntu/whoRF/doctor_who_frames/in_between_processing/training_webm/run_{i_z}_07.webm')
+# ###### T R A I N I N G
+# for i in range(1, len(list_trainvids)+1):
+#     i_z = str(i).zfill(3)
+#     subprocess.run(f'ffmpeg -i /mnt/sdb/Ubuntu/whoRF/doctor_who_frames/raw_frames/train/run_{i_z}.webm -an -vf "scale=96:96,fps=1.42857142857" -y /mnt/sdb/Ubuntu/whoRF/doctor_who_frames/in_between_processing/training_webm/run_{i_z}_07.webm')
 
 
 # ### 2. Rename and convert frames to numpy arrays
@@ -71,7 +71,7 @@ def to_numpy_all_runs(set_t):
 
         
 #save runs in np format
-to_numpy_all_runs('training')
+# to_numpy_all_runs('training')
 to_numpy_all_runs('testing')
 
 
