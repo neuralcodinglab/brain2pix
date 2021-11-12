@@ -47,7 +47,7 @@ learned RFSimage | reconstruction | ground truth
     
 <b>Codes: </b>
 
-More information on the codes of the experiments in the README inside the "experiments" folder.
+More information on the codes of the experiments in the README inside the "experiment" folder.
 
 
 To replicate the main experiment, please see the "experiment/learnableRF" and "experiment/fixedRF" folders.
