@@ -47,18 +47,10 @@ learned RFSimage | reconstruction | ground truth
     
 <b>Codes: </b>
 
-More information on the code in the README inside the "code" folder.
+More information on the codes of the experiments in the README inside the "experiments" folder.
 
-- Main experiment:
-    - To replicate the main experiment, please see the "code/learnableRF" and "code/fixedRF" folders.
 
-- Baseline experiments:    
-    - To replicate the ~n-hrs fMRI data experiment, please see the "code/split_data" folder.
-
-    - To replicate the Shen et. al., 2019 experiment, please see the "code/dcgan_baseline" folder.
-
-    - To replicate the vim2 data, please see the 'code/vim2' folder.
-    
+To replicate the main experiment, please see the "experiment/learnableRF" and "experiment/fixedRF" folders.
 
     
     
